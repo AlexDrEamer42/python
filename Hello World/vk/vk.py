@@ -34,7 +34,6 @@ class VkUser:
         
 
 token = ''
-#vk_client = VkUser(token,5.131)
 user1 = VkUser(token,5.131,16329774)
 user2 = VkUser(token,5.131,24657874)
 for friend in (user1 & user2):
